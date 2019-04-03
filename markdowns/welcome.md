@@ -1,6 +1,6 @@
 # Journée Immersion
 
-Dans le cadre de votre immersion, vous pouvez essayer de réaliser quelques manipulations de base en `C` à l'aide d'une librairie conçue pour créer des motifs dans un quadrillage appelé `paper`
+Dans le cadre de votre immersion, vous pouvez essayer de réaliser quelques manipulations de base en `C` à l'aide d'une librairie conçue pour créer des motifs dans un quadrillage appelé `paper`. Chaque exemple proposé est éditable pour faire des essais. Sur la seconde page vous pouvez faire vos propres tests.
 
 ## Manipuler les papers
 
@@ -20,5 +20,16 @@ Les fonctions permettant de manipuler un `paper` :
 
 @[Sample paper]({"stubs": ["main.c"],"command": "sh /project/target/run.sh", "project" : "sample"})
 
+## Répéter des instructions
+
+Afin de pouvoir réaliser la même opération un grand nombre de fois sans avoir à multiplier inutilement les lignes de code, nous avons à notre disposition des opérations de répétitions.
+Elle se présente comme suit :
+```C
+repeat(N) { // les instructions seront répétées N fois
+	// les instructions à répéter
+} loop;
+```
+
+### Exemple
 
 @[Manage with paper]({"stubs": ["main.c"],"command": "sh /project/target/run.sh", "project" : "paper"})
