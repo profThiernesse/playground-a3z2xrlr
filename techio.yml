@@ -1,6 +1,6 @@
-title: Demo Paper
+title: Journée immersion
 plan:
-- title: Demo
+- title: Immersion les papers
   statement: markdowns/welcome.md
 projects:
   paper:
