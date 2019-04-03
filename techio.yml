@@ -2,6 +2,8 @@ title: Journée immersion
 plan:
 - title: Immersion les papers
   statement: markdowns/welcome.md
+- title: Mes essais
+  statement: markdowns/test.md
 projects:
   paper:
     root: /c_paper
@@ -10,6 +12,11 @@ projects:
       version: latest
   sample:
     root: /sample
+    runner:
+      name: techio/cmake-gcc-runner
+      version: latest  
+  test:
+    root: /test
     runner:
       name: techio/cmake-gcc-runner
       version: latest
