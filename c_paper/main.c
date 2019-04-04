@@ -9,7 +9,7 @@ int main()
         colorize();
         move_down();
         move_right();
-    }
+    } loop;
 
     display_paper();
 
